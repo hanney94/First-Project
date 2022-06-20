@@ -1,6 +1,8 @@
 body {
     margin: 0;
 	background-color:black;
+	height:100px;
+	width:100px;
 }
 
 ul {
@@ -23,20 +25,19 @@ li a {
   text-align:center;
 }
 
-/* Change the link color on hover */
 li a:hover {
   background-color: black;
   color: #BDB76B;
 }
 
 
-.main{
+
+.about{
   text-align: center;
   position: absolute;
-  top: 38%;
+  top: 50%;
   left: 55%;
   transform: translate(-50%, -50%);
   color: #BDB76B;
   font-family: 'Roboto', sans-serif;
-  font-size: 35px;
-}
+  }
