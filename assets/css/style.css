@@ -25,7 +25,6 @@ li a {
   text-align:center;
 }
 
-/* Change the link color on hover */
 li a:hover {
   background-color: black;
   color: #BDB76B;
@@ -47,7 +46,7 @@ p {
 	font-size: 25px;
 }
 
- button {
+ .button {
   background-color: #BDB76B;
   border: none;
   color: black;
@@ -59,7 +58,7 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
- button:hover {
+ .button:hover {
   background-color: black; 
   color: #BDB76B;
   cursor: pointer;

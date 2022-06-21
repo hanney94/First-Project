@@ -41,9 +41,9 @@ li a:hover {
   color: #BDB76B;
   font-family: 'Roboto', sans-serif;
   }
+   a {
+	   color:#BDB76B;
+	   text-decoration:none;
+	   font-family: 'Roboto', sans-serif;
+   }
   
-  .link {
-	  color:#BDB76B;
-	  text-decoration:none;
-	  background-color:white;
-  }
