@@ -41,3 +41,19 @@ li a:hover {
   color: #BDB76B;
   font-family: 'Roboto', sans-serif;
   }
+  
+p {
+	font-size:20px;
+}
+
+.footer {
+	color:black;
+	text-align: center;
+    padding: 3px;
+	display: block;
+	position:fixed;
+	width:100%;
+	background-color:#BDB76B;
+	left:0%;
+	bottom:0%;	
+}

@@ -70,3 +70,15 @@ a {
 	color:white;
 	text-decoration:none;
 }
+
+.footer {
+	color:black;
+	text-align: center;
+    padding: 3px;
+	display: block;
+	position:fixed;
+	width:100%;
+	background-color:#BDB76B;
+	left:0%;
+	bottom:0%;	
+}

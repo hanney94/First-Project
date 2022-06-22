@@ -40,10 +40,27 @@ li a:hover {
   transform: translate(-50%, -50%);
   color: #BDB76B;
   font-family: 'Roboto', sans-serif;
+  font-size:20px
   }
-   a {
+  
+ a {
 	   color:#BDB76B;
 	   text-decoration:none;
 	   font-family: 'Roboto', sans-serif;
    }
   
+  a:hover {
+	  color:#ffc34d;
+  }
+  
+.footer {
+	color:black;
+	text-align: center;
+    padding: 3px;
+	display: block;
+	position:fixed;
+	width:100%;
+	background-color:#BDB76B;
+	left:0%;
+	bottom:0%;	
+}
