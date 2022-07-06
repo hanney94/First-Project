@@ -4,3 +4,7 @@ It has all my contact details including links to my most used websites like Face
 <br>
 I have chosen to use sleek colours and a clean/simple layout as I find this most visually pleasing and and easy to navigate. The colours I have used also best reflect my character.
  
+<h1> Features </h1>
+<h3> All Pages </h3>
+<ul>
+<li> Navigation links - Allows users to navigate around my website by clicking each navigation link, which redirects them to the relevant webpage.
