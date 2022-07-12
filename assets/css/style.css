@@ -1,15 +1,18 @@
-body {
+
+ body {
     margin:0px;
 	background-color:black;
 	font-family: 'Roboto', sans-serif;
 }
+
+
  /*index*/
  
  .sidebar {
 	 display:block;
 	 float:left;
 	 height: 100%;
-	 width: 200px;
+	 width: 100%;
 	 position: fixed;
 	 z-index: 1;
 	 top:0;
@@ -17,8 +20,8 @@ body {
 	 background-color: #BDB76B;
 	 overflow-x: hidden;
 	      }
- 
-ul {
+		  
+  ul {
   list-style-type: none;
   padding: 35px 0px; 
 }
@@ -31,6 +34,7 @@ li a {
   text-align:center;
 }
 
+
 li a:hover {
   background-color: black;
   color: #BDB76B;
@@ -40,15 +44,9 @@ li a:hover {
 	 position:absolute;
 	 top:5%;
 	 right:34%;
-	 
+	 object-fit: contain;
  }
  
- 
- @media (min-width: 820px) {
-	.image {
-		right:20%;
-	}
-}
 
   .main {
   text-align: center;
@@ -61,17 +59,16 @@ li a:hover {
   font-size: 35px;
 
 }
-
- @media (min-width: 820px) {
-	.main {
-		left: 62%;
-	}
-}
-
+   h1 {
+		 font-size:15px
+	 }
+	 
+	 
    .sales{
 	font-size: 25px;
      }
 	 
+		 
  button {
     cursor: pointer;
 	transition: all .5s ease;
@@ -97,31 +94,206 @@ button:hover {
 	color:black;
 }
 
+
+/* Media Query's for index */
+
+/* Extra Small Devices 393px and down */
+@media only screen and (max-width: 393px){
+	.image {
+	left:30%;
+	width:60%;
+	}
+	.main {
+	top:20%;
+	}
+}
+	
+/* Extra small devices (phones, 600px and down to 394px) */
+@media only screen and (max-width: 600px){
+	.sidebar {
+		width:20%;
+	}
+	li a {
+		font-size:12px;
+	}
+	
+	.image { 
+	right:2%;
+	}
+	
+	.main {
+		left:62%;
+		top: 60%;
+	}
+	
+	h1 {
+		font-size: 20px;
+	}
+	
+	.sales {
+		font-size:10px;
+	}
+	
+	button {
+		font-size:10px;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px){
+	.sidebar {
+		width:20%;
+	}
+	li a {
+		font-size:15px;
+	}
+	
+	.image { 
+	right:20%;
+	}
+	
+	.main {
+		left:60%;
+	}
+	h1 {
+		font-size: 30px;
+	}
+	
+	.sales {
+		font-size:15px;
+	}
+	
+	button {
+		font-size:15px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px){
+		.sidebar {
+		width:20%;
+	}
+	li a {
+		font-size:15px;
+	}
+	
+	.image { 
+	right:20%;
+	}
+	
+	.main {
+		left:60%;
+		top:60%;
+	}
+	h1 {
+		font-size: 30px;
+	}
+	
+	.sales {
+		font-size:15px;
+	}
+	
+	button {
+		font-size:15px;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.sidebar {
+		width:20%;
+	}
+	li a {
+		font-size:20px;
+	}
+	
+	.image { 
+	right:25%;
+	}
+	
+	.main {
+		left:60%;
+		top:65%;
+	}
+	h1 {
+		font-size: 40px;
+	}
+	
+	.sales {
+		font-size:25px;
+	}
+	
+	button {
+		font-size:20px;
+	}
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.sidebar {
+		width:20%;
+	}
+	li a {
+		font-size:15px;
+	}
+	
+	.image { 
+	right:32.5%;
+	}
+	
+	.main {
+		left:57%;
+	}
+	h1 {
+		font-size: 50px;
+	}
+	
+	.sales {
+		font-size:20px;
+	}
+	
+	button {
+		font-size:20px;
+	}
+}
+
+/* End of Media Query's for index */
+
 /*End of Index*/
+
+
+
 
 
   /*About*/
   
   .about{
-  text-align: center;
-  position: absolute;
-  top: 45%;
+  top: 10%;
   width:85%;
-  left: 55%;
-  transform: translate(-47%, -50%);
+  left: 18%;
   color: #BDB76B;
   display:inline-block;
   align-content:center;
+  word-wrap: break-word;
+  margin-left:15%;
          }
-  
+		 
+ h1, h2, h3 {
+  text-align: center;
+  position: justify;	
+ }
+ 
  p {
+	text-align: center;
+    position: justify;
 	font-size:15px;
-	margin-bottom:auto;
 	}
  
   /*End of About*/
   
-  
+ 
+ 
    /*Contact*/
    
    .contact{
@@ -161,6 +333,38 @@ button:hover {
 	bottom:0%;
 	font-size:10px;
 }
+
+/* Extra Small Devices 393px and down */
+@media only screen and (max-width: 393px){
+
+	
+/* Extra small devices (phones, 600px and down to 376px) */
+@media only screen and (max-width: 600px){
+	
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px){
+
+	
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px){
+	
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	
+}
+
 
 /*End of Footer*/
 
