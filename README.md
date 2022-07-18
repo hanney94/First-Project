@@ -32,3 +32,16 @@ I have chosen to use sleek colours and a clean/simple layout as I find this most
 <li> Font Awesome - The project uses <b>Font Awesome</b> to inlcude Icons used in the Nav Bar and Contact page for the links.</li>
 <li> Git - I used <b>Git</b> to regularly push and commit changes in the project.</li>
 <li> GitHub - I used <b>GitHub</b> as a remote repository to push and store the committed changes to my project from Git. I have also used GitHub to create the README.md file.</li>
+</ul>
+
+<h1>Responsive Testing</h1>
+I used Google Chrome's development tool's to test the responsiveness of my website on different sized devices.
+<h3>HTML & CSS Validation</h3>
+<ul>
+<li>I used the <b>W3C HTML Validator</b> tool to validate my HTML code.</li>
+<li>I used the <b>W3C CSS Validator</b> tool to validate my CSS code.</li>
+</ul>
+
+<h1>Deployment</h1>
+
+The hosting platform that I've used for my project is GitHub Pages. To deploy my website to GitHub pages, I used the following steps:
