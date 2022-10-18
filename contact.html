@@ -1,40 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta charset="UTF-8">
  <head>
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta charset="UTF-8">
+
 	<title>Hannah Allan Portfolio</title>
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Unica+One&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/3e6354b53c.js" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
  </head>
   <body>
-  
-<nav>
-  <div class="sidebar">
-  <ul>
-  <li><a href="index.html"> <i class="fa-solid fa-house"></i> Home</a></li>
-  <li><a href="about.html"><i class="fa-solid fa-user"></i> About</a></li>
-  <li><a href="contact.html"><i class="fa-solid fa-address-card"></i> Contact</a></li>
-</ul>  
-</div>
+<nav class="navbar navbar-expand-lg style= "background-color: white;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"></a>
+	<a href="index.html"><img src= "assets/images/logo1.jpg" alt="Logo" width="120" height="120"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="contact.html">
+            Contact
+          </a>        
+        </li>
+  </div>
 </nav>
 
-<div class="contact">
-<h1>CONTACT ME :</h1>
-<a class="links" href="mailto:hannahallan94@gmail.com"><i class="fa-solid fa-envelope"></i> Email : hannahallan94@gmail.com</a><br>
-<a class="links" href="#"><i class="fa-solid fa-square-phone"></i> Call : 07506 442556</a><br>
-<a class="links" href="https://www.linkedin.com/in/hannah-allan-0558131a5/"><i class="fa-brands fa-linkedin"></i> LinkedIn : Hannah Allan</a><br>
-<a class="links" href="https://twitter.com/hannahallanxox"><i class="fa-brands fa-twitter"></i> Twitter: @hanneyallanxox</a><br>
-<a class="links" href="https://www.facebook.com/hanney.allan/"><i class="fa-brands fa-facebook-square"></i> Facebook : Hannah Allan</a><br>
-<a class="links" href="https://www.instagram.com/hallanx/"><i class="fa-brands fa-instagram-square"></i> Instagram : hallanx</a><br>
-</div>
 
-<div class="footer">
-<footer> HANNAH ALLAN | 2022 </footer>
- </div>
- 
+<section>
+<div class="aboutme">
+
+<footer class="text-center text-white" style="background-color:white;">
+  <!-- Grid container -->
+  <div class="container pt-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="https://www.facebook.com/hanney.allan"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="https://twitter.com/hannahallanxox"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="https://www.instagram.com/hallanx/"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="https://www.linkedin.com/in/hannah-allan-0558131a5/"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center text-dark p-3" style="background-color:white;">
+    © 2022 Copyright:
+    <a class="text-dark" href="#">hannahallan.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
 </body>
 </html>
