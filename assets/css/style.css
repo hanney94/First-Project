@@ -4,7 +4,7 @@ html, body {
 
 
  .mb-3, .mb-4, .button,.nav-item {
- font-family: 'Unica One', cursive;
+ font-family: 'Poppins', sans-serif;
  }
  
 .mb-3{
@@ -35,7 +35,7 @@ html, body {
 .text {
 	margin:20px;
 	float:right;
-   font-family: 'Roboto Slab', serif;
+   font-family: 'Poppins', sans-serif;
 	text-align:justify;
 }
 
