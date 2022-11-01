@@ -15,7 +15,7 @@ html, body {
 }
 
 .button {
-	background-color:yellow;
+	background-color:#ff7f50;
 	color:black;
 	border-radius:3px;
 	border:1px solid black;
@@ -45,11 +45,13 @@ html, body {
 	width:100%;
 	text-align:center;
 	font-family: 'Poppins', sans-serif;
+	color:#ff7f50;
 	
 }
 
  ul{
 	list-style:none;
+	
 }
 
 .links{
