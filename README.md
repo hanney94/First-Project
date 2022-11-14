@@ -42,6 +42,3 @@ I used Google Chrome's development tool's to test the responsiveness of my websi
 <li>I used the <b>W3C CSS Validator</b> tool to validate my CSS code.</li>
 </ul>
 
-<h1>Deployment</h1>
-
-The hosting platform that I've used for my project is GitHub Pages. To deploy my website to GitHub pages, I used the following steps:
