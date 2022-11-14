@@ -17,7 +17,7 @@ I have chosen to use sleek colours and a clean/simple layout as I find this most
 </ul>
 <h3> about.html </h3>
 <ul>
-<li> A page that advises the user of some of my personal life, my work experience and my education.</li>
+<li> A page that advises the user of some of my personal life, my work experience and an Image</li>
 </ul>
 <h3> contact.html </h3>
 <ul>
